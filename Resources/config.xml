@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/shopware/5.3/engine/Shopware/Components/Plugin/schema/config.xsd">
+    <elements>
+........<element type="textarea" scope="shop">
+            <name>mv_pcs_articles</name>
+            <label lang="de">Artikel</label>
+............<label lang="en">Articles</label>
+            <value></value>
+            <description lang="de">Je Zeile eine Artikelnummer eingeben. Die Artikel erscheinen in der angegebenen Reihenfolge.</description>
+............<description lang="en">Enter one product-number per line. Products are shown in the order you enter them here.</description>
+        </element>
+    </elements>
+</config>

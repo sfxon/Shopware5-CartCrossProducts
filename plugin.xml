@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/plugin.xsd">
+    <label lang="de">Ausgewählte Artikel im Warenkorb-Cross-Selling</label>
+    <label lang="en">Select products for shopping cart cross selling</label>
+    <version>1.0</version>
+    <link>http://mindfav.com/shopware5/plugins/mvCartCrossProducts</link>
+    <author>Mindfav, Steve Krämer</author>
+
+    <changelog version="1.0">
+        <changes lang="de">First Release</changes>
+        <changes lang="en">First Release</changes>
+    </changelog>
+
+    <description lang="de">
+        <![CDATA[
+        <h1>CartCrossProducts</h1>
+        <h2>1. Was macht das Plugin?</h2>
+        <p>Dieses Plugin ersetzt den Bereich "Das könnte Ihnen auch gefallen" im Popup-Warenkorb. Es ermöglicht die freie Wahl der Artikel, die dort angezeigt werden sollen.</p>
+        <h2>2. Features</h2>
+        <ul>
+            <li>Konfigurierbar über ein Admin-Menü</li>
+            <li>Responsive</li>
+            <li>Kompatibel mit dem Basis "Responsive" Theme, und damit auch mit vielen individuellen Themes.</li>
+        </ul>
+        ]]>
+    </description>
+    <description lang="en">
+    	TODO: add englisch description!
+    </description>
+    <compatibility minVersion="5.5.0" />
+</plugin>
